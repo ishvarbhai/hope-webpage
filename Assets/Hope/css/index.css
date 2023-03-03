@@ -1,0 +1,268 @@
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800&family=Hind:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ /* --------------------------top-header------------------------------ */
+
+ .top-header {
+    background-color: #FFFBF2;
+    padding: 20px 0px;
+ }
+
+ .top-header .top-social {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+
+ }
+
+ .top-header .top-social .search {
+    border: none;
+    border-radius: 50px;
+    height: 32px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A61F1F;
+    color: #ffffff;
+ }
+
+ .top-header .top-social .top-user {
+    color: #A61F1F;
+
+ }
+
+ .top-header .top-logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Abhaya Libre', serif;
+ }
+
+ .top-header .navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-left: 0px;
+ }
+
+ .top-header .navbar ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #A61F1F;
+    font-family: 'Sora', sans-serif;
+    font-size: 15px;
+ }
+
+ /* second-header */
+
+ .second-header {
+    background-color: #A61F1F;
+ }
+
+ .second-header .second-detail {
+    max-width: 640px;
+    margin: 200px 0px 0px auto;
+ }
+
+ .second-header .second-detail h2 {
+    font-size: 80px;
+    color: #ffffff;
+    font-family: 'Abhaya Libre', serif;
+ }
+
+ .second-header .second-detail p {
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-family: 'Sora', sans-serif;
+ }
+
+ .second-header .second-detail .btn {
+    display: flex;
+    gap: 20px;
+    padding: 0px;
+ }
+
+ .second-header .second-detail .btn .btn1 button {
+    height: 55px;
+    width: 200px;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    background-color: #A61F1F;
+    color: #ffffff;
+    transition: .5s all ease;
+ }
+
+ .second-header .second-detail .btn .btn1 button:hover {
+    background-color: #ffffff;
+    color: #A61F1F;
+ }
+
+ .second-header .second-detail .btn .btn1 button i {
+    padding-left: 10px;
+ }
+
+ .second-header .second-image img {
+    height: 960px;
+    max-width: 960px;
+    width: 100%;
+ }
+
+ /* strategy */
+
+ .strategy {
+    background-color: #FFFBF2;
+    padding: 180px 0px 180px 0px;
+ }
+
+ .strategy .strategy-detail h2 {
+    text-align: center;
+    font-size: 60px;
+    padding: 0px 0px 40px 0px;
+    font-family: 'Abhaya Libre', serif;
+ }
+
+ .strategy .strategy-detail p {
+    text-align: center;
+    line-height: 26px;
+    padding: 0px 0px 50px 0px;
+    font-family: 'Sora', sans-serif;
+ }
+
+ .strategy .strategy-detail .btn {
+    display: flex;
+    justify-content: center;
+ }
+
+ .strategy .strategy-detail .btn button {
+    height: 55px;
+    width: 200px;
+    border: 1px solid #A61F1F;
+    border-radius: 50px;
+    background-color: #FFFBF2;
+    color: #A61F1F;
+    transition: .5s all ease;
+ }
+
+ .strategy .strategy-detail .btn button:hover {
+    background-color: #A61F1F;
+    color: #FFFBF2;
+ }
+
+ .strategy .strategy-detail .btn button i {
+    padding-left: 10px;
+ }
+
+
+ /* help */
+
+ .help .help-detail {
+    margin: 300px 0px 300px 0px;
+ }
+
+ .help .help-detail h2 {
+    font-size: 60px;
+    font-family: 'Abhaya Libre', serif;
+    color: #A61F1F;
+    padding-bottom: 40px;
+ }
+
+ .help .help-detail p {
+    line-height: 26px;
+    padding-bottom: 50px;
+    font-family: 'Sora', sans-serif;
+ }
+
+ .help .help-detail .btn button {
+    height: 55px;
+    width: 200px;
+    border: 1px solid #A61F1F;
+    border-radius: 50px;
+    background-color: #FFF;
+    color: #A61F1F;
+    transition: .5s all ease;
+ }
+
+ .help .help-detail .btn button:hover {
+    background-color: #A61F1F;
+    color: #ffffff;
+ }
+
+ .help .help-detail .btn button i {
+    padding-left: 10px;
+ }
+
+ .help .help-image {
+    margin: 120px 0px 120px;
+ }
+
+ .help .help-nub {
+    text-align: center;
+ }
+
+ .help .help-nub h2 {
+    font-size: 120px;
+    color: #A61F1F;
+    padding-bottom: 15px;
+    font-family: 'Abhaya Libre', serif;
+ }
+
+ .help .help-nub p {
+    padding-bottom: 130px;
+    line-height: 26px;
+    font-family: 'Sora', sans-serif;
+ }
+
+ /* Cancer Categories */
+ .Categories {
+    background-color: #FFFBF2;
+    padding: 120px 0px 120px 0px;
+ }
+
+ .Categories .cancer-categories h2 {
+    font-size: 60px;
+    line-height: 70px;
+    color: #A61F1F;
+    font-family: 'Abhaya Libre', serif;
+ }
+
+ .Categories .cancer-image img {
+    width: 100%;
+    padding-top: 60px;
+ }
+
+
+ /* Team Members */
+
+ .members .members-head h2 {
+    text-align: center;
+    padding-bottom: 60px;
+    font-family: 'Abhaya Libre', serif;
+    color: #A61F1F;
+    font-size: 60px;
+ }
+ .members .team-n .team-image img{
+   width: 100%;
+ }
+ .members .team-n  .team-name{
+   background-color: #FFFBF2;
+    padding: 50px 0px 30px 0px;
+    text-align: center;
+    width: calc(100% - 80px);
+    height: 150px;
+    margin: -70px auto 0;
+    position: relative;
+}
+ 
+
+/* people */
+
